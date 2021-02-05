@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif, "Long Cang", cursive;
+    background: rgb(233, 232, 232);
+    color: #333;
+}
+
+span {
+    color: rgba(255, 238, 0, 0.952);
+}
+
+
+/* HEADER */
+
+header {
+    padding: 1rem 2rem;
+    background: #333;
+    justify-content: space-between;
+    display: flex;
+}
+
+header div {
+    display: flex;
+    font-family: "Long Cang", cursive;
+    font-size: 1.2rem;
+}
+
+header div h1 {
+    color: white;
+    display: flex;
+}
+
+header div i {
+    color: yellow;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 0.8rem;
+}
+
+header nav ul li {
+    margin-right: 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* SECTION 1 */
+
+.s1 {
+    background-image: url(./images/frame.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 13rem 0;
+}
+
+.s1 div {
+    width: 43%;
+    margin: 0 auto;
+}
+
+.s1 div h2 {
+    font-size: 3rem;
+}
+
+.s1 div p {
+    margin-top: 2rem;
+    font-weight: 300;
+}
+
+
+/* SECTION 2 */
+
+#section2 {
+    padding: 10rem 1rem;
+}
+
+#section2 h3 {
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+    display: flex;
+    flex: row;
+    text-align: center;
+}
+
+.container div {
+    flex: 1;
+    margin: 0 3%;
+    background-color: white;
+    text-align: center;
+}
+
+.container div img {
+    width: 100%;
+}
+
+.text {
+    padding: 8%
+}
+
+
+/* SECTION 3*/
+
+#teams {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+}
+
+.bc {
+    background-image: url(./images/team.jpg);
+    height: 37.5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+#teams div {
+    flex: 1;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textTeam {
+    padding: 0 2rem;
+}
+
+.textTeam h3 {
+    font-size: 2.2rem;
+}
+
+.textTeam p {
+    margin-top: 1rem;
+    font-weight: 300;
+}
+
+
+/* SECTION 4 */
+
+#IdCitation {
+    display: flex;
+    flex-direction: column;
+}
+
+#IdCitation div {
+    padding: 1.5rem;
+    display: flex;
+    flex: 1;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.CitImage {
+    display: flex;
+    flex-direction: column;
+}
+
+.CitImage img {
+    width: 3.5rem;
+    border-radius: 50%;
+}
+
+
+/* #IdCitation h3 {
+    font-weight: 300;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+#IdCitation div {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    width: 80%;
+    margin: 2rem auto 0 auto;
+    background-color: white;
+    flex: 1;
+}
+
+.CitTexte {
+    width: 75%;
+    text-align: center;
+}
+
+.CitImage {
+    display: flex;
+    flex-direction: column;
+    /* height: auto; */
+
+
+}
+.CitImage img {
+    border-radius: 10rem;
+    max-width: 3.5rem;
+}
+.CitImage p {
+    display: flex;
+}
+*/
+/* FOOTER */
+footer {
+    background: #444;
+    padding: 3rem 1rem;
+    color: white;
+    text-align: center;
+}
+footer p {
+    margin-bottom: 0;
+}
